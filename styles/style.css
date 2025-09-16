@@ -28,6 +28,7 @@ nav button {
     color: #006A50;
     border-color: #006A50;
     padding: 15px 30px;
+    background-color: white;
 }
 
 /* banner section */
@@ -43,7 +44,7 @@ nav button {
 }
 
 .banner h2 {
-    opacity: 50%;
+    opacity: 0.5;
     font-weight: 500;
 }
 
@@ -60,4 +61,47 @@ nav button {
     color: white;
     background-color: #006A50;
     padding: 17px 34px;
+}
+
+.banner img {
+    width: 474px;
+    height: 400px;
+}
+
+
+/* main section styles */
+
+/* pillars section styles */
+
+.pillars h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pillar-cards {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillar-card {
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid #0e0e0e15;
+}
+
+.pillar-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.pillar-card p {
+    line-height: 24px;
+    color: #0e0e0e;
+    opacity: 0.7;
 }
