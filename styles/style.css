@@ -6,7 +6,7 @@
 
 body {
     font-family: "Fira Sans", sans-serif;
-    margin: 0 180px;
+    margin: 0 160px;
     color: #0e0e0e;
     background-color: #f5f5f5;
 }
@@ -28,4 +28,36 @@ nav button {
     color: #006A50;
     border-color: #006A50;
     padding: 15px 30px;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 80px;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.banner h2 {
+    opacity: 50%;
+    font-weight: 500;
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.banner button {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
 }
