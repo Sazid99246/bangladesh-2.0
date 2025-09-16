@@ -15,6 +15,11 @@ button {
     border-radius: 8px;
 }
 
+section h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
 /* header style */
 
 nav {
@@ -59,7 +64,7 @@ nav button {
     font-weight: 600;
     font-size: 18px;
     color: white;
-    background-color: #006A50;
+    background-color: #006A80;
     padding: 17px 34px;
 }
 
@@ -72,11 +77,6 @@ nav button {
 /* main section styles */
 
 /* pillars section styles */
-
-.pillars h2 {
-    font-weight: bold;
-    font-size: 40px;
-}
 
 .pillar-cards {
     margin-top: 32px;
@@ -102,6 +102,76 @@ nav button {
 
 .pillar-card p {
     line-height: 24px;
-    color: #0e0e0e;
-    opacity: 0.7;
+    color: #0e0e0eb3;
+}
+
+/* vision section styles */
+.vision-section {
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.vision-section p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    line-height: 24px;
+    color: #0e0e0eb3;
+}
+
+.visions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.vision {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision img {
+    margin-bottom: 24px;
+}
+
+.vision h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.vision p {
+    color: #0e0e0eb3;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.vision button {
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.digital {
+    background-color: #5490F533;
+}
+
+.digital button {
+    background-color: #5490F5;
+}
+
+.green {
+    background-color: #C6E4D6FF;
+}
+
+.green button {
+    background-color: #09A15C;
+}
+
+.modern {
+    background-color: #F7EBCFFF;
+}
+
+.modern button {
+    background-color: #FFC239;
 }
