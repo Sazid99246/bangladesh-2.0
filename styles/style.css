@@ -8,7 +8,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     margin: 0 160px;
     color: #0e0e0e;
-    background-color: #f5f5f5ff;
+    background-color: #f5f5f5;
 }
 
 button {
@@ -18,6 +18,7 @@ button {
 section h2 {
     font-weight: bold;
     font-size: 40px;
+    color: #0e0e0e;
 }
 
 /* header style */
@@ -205,4 +206,47 @@ nav button {
 .designation {
     line-height: 24px;
     color: #0e0e0e99;
+}
+
+/* Your opinion section */
+.your-opinion h2 {
+    margin-bottom: 24px;
+}
+
+.your-opinion table {
+    border-color: #0a0a0a26;
+    width: 100%;
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.your-opinion th {
+    background-color: #C6E4D6;
+    border: 0;
+    padding: 24px;
+}
+
+.your-opinion th:nth-of-type(1) {
+    text-align: left;
+}
+
+.your-opinion th:nth-of-type(2) {
+    text-align: right;
+}
+
+.your-opinion td {
+    padding: 24px;
+}
+
+.your-opinion td:nth-of-type(2) {
+    text-align: right;
+    width: 15%;
+}
+
+.your-opinion select {
+    padding: 12px;
+    gap: 0;
+    background-color: #C6E4D6;
 }
