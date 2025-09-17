@@ -8,7 +8,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     margin: 0 160px;
     color: #0e0e0e;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5ff;
 }
 
 button {
@@ -174,4 +174,35 @@ nav button {
 
 .modern button {
     background-color: #FFC239;
+}
+
+/* Quote from Dr. Mohammad Yunus section */
+
+.yunus-quote {
+    background-color: white;
+    padding: 48px 24px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    border: 2px solid #0e0e0e15;
+    background: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 24px 24px;
+}
+
+.quote {
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.yunus-quote h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0e0e0ecc;
+}
+
+.designation {
+    line-height: 24px;
+    color: #0e0e0e99;
 }
