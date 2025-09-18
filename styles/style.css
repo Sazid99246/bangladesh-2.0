@@ -19,6 +19,16 @@ section h2 {
     font-weight: bold;
     font-size: 40px;
     color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+p {
+    line-height: 24px;
+    color: #0e0e0eb3;
+}
+
+.container {
+    margin-top: 32px;
 }
 
 /* header style */
@@ -67,6 +77,7 @@ nav button {
     color: white;
     background-color: #006A80;
     padding: 17px 34px;
+    border: 0;
 }
 
 .banner img {
@@ -80,7 +91,6 @@ nav button {
 /* pillars section styles */
 
 .pillar-cards {
-    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,11 +111,6 @@ nav button {
     margin-bottom: 12px;
 }
 
-.pillar-card p {
-    line-height: 24px;
-    color: #0e0e0eb3;
-}
-
 /* vision section styles */
 .vision-section {
     margin-top: 80px;
@@ -115,8 +120,6 @@ nav button {
 .vision-section p {
     margin-top: 24px;
     margin-bottom: 32px;
-    line-height: 24px;
-    color: #0e0e0eb3;
 }
 
 .visions {
@@ -141,8 +144,6 @@ nav button {
 }
 
 .vision p {
-    color: #0e0e0eb3;
-    line-height: 24px;
     font-size: 16px;
 }
 
@@ -192,27 +193,20 @@ nav button {
 }
 
 .quote {
-    line-height: 24px;
     margin-bottom: 12px;
 }
 
 .yunus-quote h3 {
     font-size: 20px;
     font-weight: 600;
-    line-height: 24px;
     color: #0e0e0ecc;
 }
 
 .designation {
-    line-height: 24px;
     color: #0e0e0e99;
 }
 
 /* Your opinion section */
-.your-opinion h2 {
-    margin-bottom: 24px;
-}
-
 .your-opinion table {
     border-color: #0a0a0a26;
     width: 100%;
@@ -249,4 +243,56 @@ nav button {
     padding: 12px;
     gap: 0;
     background-color: #C6E4D6;
+}
+
+
+/* recent news section */
+.recent-news p {
+    margin-bottom: 32px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+}
+
+.news img {
+    border-radius: 24px;
+}
+
+.news h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0e0e0ecc;
+    margin-bottom: 12px;
+}
+
+.date-and-time {
+    margin-bottom: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.news-description {
+    margin-bottom: 32px;
+}
+
+.news button {
+    background-color: #006A50;
+    color: white;
+    padding: 13px 26px;
+}
+
+#news-2 {
+    flex-direction: row-reverse;
 }
